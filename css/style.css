@@ -125,6 +125,7 @@ body{
 	font-family: 'Montserrat-Regular';
 	font-size: 36px;
 	color: #4e4e4e;
+	margin-top: 100px;
 	margin-bottom: 16px;
 }
 #our-team .team-photo{
@@ -186,7 +187,7 @@ body{
 }
 #our-team .team-cards{
 	cursor: pointer;
-	margin: 0;
+	margin: 0 0 100px 0;
 	padding: 0;
 }
 #our-team .team-title:hover{
