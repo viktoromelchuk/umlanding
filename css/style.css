@@ -273,6 +273,252 @@ body {
 /*==== Section #our-work Start ====*/
 
 
+#our-work .container-fluid {
+	background: #F8FCFE;
+}
+
+#our-work .ow-title {
+	margin-top: 0;
+	padding-top: 100px;
+
+	text-align: center;
+	text-transform: capitalize;
+
+	color: #4E4E4E;
+
+	font-family: "Montserrat-Regular", sans-serif;
+	font-size: 36px;
+}
+
+#our-work .ow-lines {
+	position: relative;
+
+	width: 75px;
+	height: 1px;
+	margin: 0 auto;
+	margin-bottom: 75px;
+
+	border: 1px solid #18CFAB;
+}
+
+#our-work .ow-lines:after {
+	position: absolute;
+	top: 3px;
+	left: 10px;
+
+	width: 75px;
+	height: 1px;
+
+	content: "";
+
+	border-top: 3px solid #18CFAB;
+}
+
+#our-work .ow-menu {
+	box-sizing: border-box;
+	width: 610px;
+
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+
+#our-work .ow-menu ul {
+	padding: 0;
+
+	list-style: none;
+}
+
+#our-work .ow-menu .menu-item {
+	display: inline-block;
+
+	padding: 20px;
+
+	text-transform: capitalize;
+
+	color: #717171;
+	border-top: 2px solid transparent;
+	background: #FFF;
+	box-shadow: 0 0 0 1px #EBebeb;
+
+	font-family: "Montserrat-Regular", sans-serif;
+	font-size: 14px;
+}
+
+#our-work .ow-menu .menu-item:not(:first-child) {
+	margin-left: -5px;
+}
+
+#our-work .ow-menu .menu-item:first-child {
+	padding: 20px 28px;
+}
+
+#our-work .ow-menu .menu-item:last-child {
+	padding-right: 29px;
+}
+
+#our-work .ow-menu .menu-item:hover {
+	color: #18CFAB;
+	border-top: 2px solid #18CFAB;
+}
+
+#our-work .ow-chessdesk {
+	width: 100%;
+}
+
+#our-work .ow-chessdesk ul {
+	box-sizing: border-box;
+	padding: 0;
+
+	list-style: none;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:not(:hover) {
+	display: inline-block;
+
+	width: 25%;
+	margin-left: -4px;
+
+	text-align: center;
+
+	border: 1px solid transparent;
+	border-top: 3px solid transparent;
+}
+
+#our-work .ow-chessdesk .grey:not(:hover) {
+	background: #8A8A8A;
+}
+
+#our-work .ow-chessdesk .darkgrey:not(:hover) {
+	background: #24413E;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:hover {
+	display: inline-block;
+
+	width: 25%;
+	margin-left: -4px;
+
+	text-align: center;
+
+	border: 1px solid #F0F4F5;
+	border-top: 3px solid #18CFAB;
+}
+
+#our-work .ow-chessdesk .chessdesk-icons {
+	width: 85px;
+	height: 40px;
+
+	margin: 0 auto;
+	margin-top: 43px;
+	margin-bottom: 40px;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:hover .chessdesk__link, #our-work .ow-chessdesk .chessdesk-item:hover .chessdesk__search {
+	display: inline-block;
+
+	width: 40px;
+	height: 40px;
+	padding-top: 13px;
+
+	text-align: center;
+
+	color: #18CFAB;
+	border: 1px solid #18CFAB;
+	border-radius: 50%;
+
+	font-size: 14px;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:not(:hover) .chessdesk__link, #our-work .ow-chessdesk .chessdesk-item:not(:hover) .chessdesk__search {
+	display: inline-block;
+
+	width: 40px;
+	height: 40px;
+	padding-top: 13px;
+
+	color: transparent;
+	border: 1px solid transparent;
+
+	font-size: 14px;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:hover .chessdesk__link:hover, #our-work .ow-chessdesk .chessdesk-item:hover .chessdesk__search:hover {
+	color: #fff;
+	background: #18CFAB;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:not(:hover) .chessdesk__title {
+	margin-bottom: 10px;
+
+	color: transparent;
+
+	font-family: "Montserrat-Bold", sans-serif;
+	font-size: 14px;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:hover .chessdesk__title {
+	margin-bottom: 10px;
+
+	text-transform: uppercase;
+
+	color: #1CD0AC;
+
+	font-family: "Montserrat-Bold", sans-serif;
+	font-size: 14px;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:not(:hover) .chessdesk__subtitle {
+	margin-top: 0;
+	margin-bottom: 50px;
+
+	color: transparent;
+
+	font-family: "Montserrat-Light", sans-serif;
+	font-size: 12px;
+}
+
+#our-work .ow-chessdesk .chessdesk-item:hover .chessdesk__subtitle {
+	margin-top: 0;
+	margin-bottom: 50px;
+
+	text-transform: capitalize;
+
+	color: #8A8A8A;
+
+	font-family: "Montserrat-Light", sans-serif;
+	font-size: 12px;
+}
+
+#our-work .ow-btn {
+	width: 164px;
+	height: 60px;
+	margin: 70px auto 0 auto;
+	padding-bottom: 150px;
+}
+
+#our-work .ow-btn .ow-btn-button {
+	width: 164px;
+	height: 60px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background: #18CFAB;
+
+	font-family: "Montserrat-Bold", sans-serif;
+	font-size: 14px;
+}
+
+#our-work .ow-btn .ow-btn-button:hover {
+	color: #18CFAB;
+	border: 1px solid #18CFAB;
+	background: #fff;
+}
+
 /*==== Section #our-work End ====*/
 
 
