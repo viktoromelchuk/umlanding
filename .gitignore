@@ -1,0 +1,12 @@
+# SYSTEM FILES
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+*.map
+Thumbs.db
+.project
+.settings
+.idea
