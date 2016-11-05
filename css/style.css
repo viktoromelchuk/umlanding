@@ -934,6 +934,96 @@ body {
 
 
 /*==== Section #our-team Start ====*/
+#our-team .team-head{
+	text-align: center;
+}
+#our-team h3{
+	font-family: 'Montserrat-Regular';
+	font-size: 36px;
+	color: #4e4e4e;
+	margin-top: 100px;
+	margin-bottom: 16px;
+}
+#our-team .team-photo{
+	width: 264px;
+	height: 229px;
+	background-color: #dae9e6;
+}
+#our-team .team-head>svg{
+	width: 88px;
+    height: 5px;
+    margin-bottom: 70px;
+}
+#our-team .cls-1 {
+    fill: #18cfab;
+    fill-rule: evenodd;
+    color: #18cfab;
+}
+#our-team .subtitle{
+	font-family: 'Montserrat-Regular';
+	font-size: 16px;
+	color: #fff;
+}
+#our-team p{
+	font-family: 'Montserrat-Regular';
+	font-size: 13px;
+	color: #18cfab;
+	margin: 0;
+}
+#our-team ul, li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#our-team .team-title{
+	width: 264px;
+	height: 79px;
+	background-color: #2e4a5b;
+	border-bottom: 1px solid #fff;
+	padding-top: 22px;
+	padding-left: 25px;
+}
+#our-team li{
+	float: left;
+	width: 66px;
+	height: 65px;
+	background-color: #2e4a5b;
+	border-left: 1px solid #fff;
+	padding-top: 25px;
+}
+#our-team li:first-child{
+	border-left: none;
+}
+#our-team li>a{
+	text-decoration: none;
+	color: #fff;
+}
+#our-team .team-icons{
+	text-align: center;
+}
+#our-team .team-cards{
+	cursor: pointer;
+	margin: 0 0 100px 0;
+	padding: 0;
+}
+#our-team .team-title:hover{
+	background-color: #18cfab;
+}
+#our-team li:hover{
+	background-color: #18cfab;
+}
+#our-team .team-title:hover>p.hover{
+	color: #2e4a5b;
+}
+#our-team .team-photo:hover{
+	background-color: #8c9aa3;
+	background-image: url('../img/ellipse-team.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
 
 
 /*==== Section #our-team End ====*/
