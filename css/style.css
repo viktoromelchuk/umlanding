@@ -529,8 +529,77 @@ body {
 
 
 /*==== Section #services Start ====*/
+#services .container{
+	margin:0 auto;
+	background-color: #ffffff;
+}
+#services ul{
+	list-style: none;
 
+}
+#services h1 {
+	text-align: center;
+	font-family: 'Montserrat-Regular';
+	font-size: 36px;
+	margin-top: 92px;
+}
+#services .lines {
+	text-align: center;
+	margin-top: 25px;
+}
 
+#services ul{
+	margin-top: 92px;
+}
+#services li{
+	display: inline;
+	font-family: 'Montserrat-Regular';
+	font-size: 16px;
+	width: auto;
+	height: 72px;
+	background-color: #f8fcfe;
+	/*padding-right: 15px;*/
+	/*padding-left: 15px;*/
+	max-width: 100%;
+}
+
+#services li a {
+	display: inline;
+	padding: 15px 28px;
+	background: white;
+	color:black;
+	text-decoration: none;
+	/*position: relative;*/
+	background-color: #f8fcfe;
+	max-width: 100%;
+	margin-left: -30px;
+}
+
+#services .work{
+	max-width: 100%;
+}
+
+#services .lorem{
+	font-size: 14px;
+	font-family: 'Montserrat-Light';
+	margin-bottom: 100px;
+}
+
+#services li a:hover{
+	width: 100%;
+	background-color:#18cfab;
+	color:white;
+	text-align: center;
+
+}
+#services .work{
+	max-width: 100%;
+	/*margin-left: 20px;*/
+}
+#services li a:before{
+	background-image: url('../img/rectangle.png');
+
+}
 /*==== Section #services End ====*/
 
 
