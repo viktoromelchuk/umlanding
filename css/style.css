@@ -1233,6 +1233,53 @@ body {
 
 
 /*==== Section #clean-design Start ====*/
+.clean{
+	background: #233641;
+	height: 935px;
+}
+.wordpress{
+    font-size: 35px;
+	text-transform:uppercase;
+	color: #ffffff;
+	padding-top: 130px;
+	text-align: center;
+	font-variant: bold;
+}
+.design{
+	text-transform:uppercase;
+	color: #18cfab;
+	font-size: 30px;
+	
+	text-align: center;
+	font-weight: lighter;
+}
+.laptop{
+	float: left;
+
+}
+.button{
+	margin-top: 100px;
+
+}
+
+.fa fa-check-square-o{
+	size: 24px;
+	color: #18cfab;}
+
+span{
+	font-size: 16px;
+	color: #ffffff;
+}
+.purhase{
+	width: 170px;
+	height: 65px;
+	background: #18cfab;
+	border-radius: 5px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 70px;
+}
+
 
 
 /*==== Section #clean-design End ====*/
